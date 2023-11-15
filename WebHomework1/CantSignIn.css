@@ -1,0 +1,147 @@
+body
+{
+    background-image: 
+       url('Resources/New_map.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;  
+    background-position:center;
+}
+.design-title1
+{
+    margin-top:80px;
+    font-family:'Inter';
+    font-weight: 700;
+    color:white;
+    font-size:90px;
+    margin-bottom:0px;
+    
+}
+.design-title2
+{
+    font-family:'Inter';
+    font-weight: 700;
+    color:white;
+    font-size:30px;
+    margin-top:0px;
+}
+.design-boxes
+{
+    width:350px;
+    height: 350px;
+    background-color: rgba(255,255, 255, 0.3);
+    border-radius:25px;
+    margin-top: 80px;
+    border-color:rgba(0,0, 0, 0.3);
+}
+.container
+{
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 30% 20% 50%;
+    row-gap: 10px;
+    justify-items:center;
+    align-items: center; 
+    column-gap:2px;
+}
+.container2
+{
+    display:grid;
+    grid-template-rows: 30% 40% 30%;
+    grid-template-columns: 1% 98% 1%;
+    justify-items:center;
+    align-items: center; 
+}
+.design-box1
+{
+    margin-left:150px;
+    margin-right:0px;
+}
+.design-box2
+{
+    margin-left:0px;
+    margin-right:0px;
+}
+.design-box3
+{
+    margin-left:0px;
+    margin-right:150px;
+}
+.design-icons
+{
+    margin-top:80px;
+}
+.design-titles
+{
+    font-family:'Inter';
+    font-weight:700;
+    color:white;
+    font-size:25px;
+    margin-top: 50px;
+}
+.design-descriptions
+{
+    font-family:'Inter';
+    font-weight:600;
+    color:white;
+    font-size:15px;
+    text-align:center;
+    margin-bottom:40px;
+    margin-top:0px;
+}
+.align
+{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.specialalign
+{
+    margin-bottom:90px;
+}
+.pos-title1
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.pos-title2
+{
+    grid-row:2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.pos-misc
+{
+    grid-row:3;
+    grid-column:2;
+}
+.pos-box1
+{
+    grid-row:3;
+    grid-column:1;
+}
+.pos-box2
+{
+    grid-row:3;
+    grid-column:2;
+}
+.pos-box3
+{
+    
+    grid-row:3;
+    grid-column:3;
+}
+.pos-icons
+{
+    grid-column:2;
+    grid-row:1;
+}
+.pos-titles
+{
+    grid-column:2;
+    grid-row:2;
+}
+.pos-description
+{
+    grid-column:2;
+    grid-row:3;
+}
